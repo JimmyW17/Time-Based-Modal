@@ -1,0 +1,54 @@
+body {
+  background: linear-gradient(45deg, #261C15, #EBD6D7);
+}
+
+.nav {
+  background-color: #261C15;
+  height: 55px;
+}
+
+.nav-links {
+  float: right;
+  word-spacing: 10px;
+}
+
+.nav_links a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#modal_email {
+  position: fixed;
+  text-align: center;
+  opacity: 0;
+  background-color: white;
+  bottom: 0px;
+  width: 100%;
+}
+
+#loading {
+  margin-top: 30px;
+}
+
+#loading p{
+  display: block;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.loading {
+  visibility: hidden;
+}
+
+#cancel {
+  text-decoration: none;
+  color: black;
+}
+
+.image img{
+  margin: 0 auto;
+  display: block;
+}
